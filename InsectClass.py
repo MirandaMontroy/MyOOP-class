@@ -8,7 +8,7 @@ class Insect:
         self.distance = 0
 
     def flight_distance(self):
-        self.distance= random.randint(1, 10)
+        self.distance = random.randint(1, 10)
 
     def get_distance(self):
         return self.distance
