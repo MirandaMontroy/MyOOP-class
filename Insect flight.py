@@ -2,13 +2,12 @@ import InsectClass as b
 
 
 def main():
-    my_bug = b.Insect()
+    my_bug = b.Insect(4, 8, 0)
 
-    my_bug.flight_distance()
+    print(my_bug.get_wings())
+    print(my_bug.get_legs())
 
-    # x = my_bug.get_distance
-
-    print("This is how far the bug can fly: ", my_bug.get_distance())
+    print("This is how far the bug can fly: ", str(my_bug.flight_distance()))
 
 
 main()
